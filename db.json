@@ -1,0 +1,97 @@
+{
+    "recipes": [
+        {
+            "id": 0,
+            "name": "Tortilla Soup",
+            "description": "This might just be our favorite soup of all time. A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just 4 ingredients. Also, it's freakishly delicious and addictive.",
+            "tags": [
+                {
+                    "quick": true,
+                    "difficulty": "Easy",
+                    "temperature": {
+                        "value": "400",
+                        "unit": "°F"
+                    },
+                    "dishes": "Less wash",
+                    "cost": "Cheap"
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "Water",
+                    "amount": 500,
+                    "unit": "ml"
+                },
+                {
+                    "name": "Pureed tomatoes",
+                    "amount": 400,
+                    "unit": "ml"
+                },
+                {
+                    "name": "Vegetable bouillon",
+                    "amount": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "White pepper",
+                    "amount": 2,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Oregano",
+                    "amount": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Corn",
+                    "amount": 1,
+                    "unit": "small can"
+                },
+                {
+                    "name": "Black beans",
+                    "amount": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "Young jackfruit",
+                    "amount": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "Avocado",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "Red onion",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "Tortilla chips",
+                    "amount": null,
+                    "unit": ""
+                }
+            ],
+            "flex": [
+                {
+                    "ingredient": "All vegetables",
+                    "substitutes": "We can use any kind of beans, veggies, and toppings for this soup, the world is your corn cob."
+                },
+                {
+                    "ingredient": "BBQ sauce",
+                    "substitutes": "If we want to make our own, we can do it with 4 parts ketchup, 1 part vinegar, 1 part sugar, a dash of liquid smoke, or whatever other BBQ sauce recipe we have."
+                },
+                {
+                    "ingredient": "Tortilla chips",
+                    "substitutes": "Are interchangeable with any chips of our liking. It's just a bit awkward to call it tortilla soup if we're using Maui Onion Chips."
+                }
+            ],
+            "instructions": [
+                "1. Add the water and pureed tomatoes to a pot and put the heat to medium high",
+                "1. Add the water and pureed tomatoes to a pot and put the heat to medium high"
+            ],
+            "notes": "Any veggies can be used in this soup. The flavor comes mainly from the vegetable bouillon, the pureed tomatoes, the BBQ sauce, as well as the white pepper and oregano. The toppings are whatever we want them to be. The BBQ sauce is a free choice too... but we like the smoky ones the best for this soup!"
+        }
+    ]
+}
