@@ -43,6 +43,11 @@
                     "unit": "tbsp"
                 },
                 {
+                    "name": "MSG",
+                    "amount": 1,
+                    "unit": "tbsp"
+                },
+                {
                     "name": "Corn",
                     "amount": 1,
                     "unit": "small can"
@@ -68,6 +73,11 @@
                     "unit": ""
                 },
                 {
+                    "name": "Lime",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
                     "name": "Tortilla chips",
                     "amount": null,
                     "unit": ""
@@ -83,15 +93,111 @@
                     "substitutes": "If we want to make our own, we can do it with 4 parts ketchup, 1 part vinegar, 1 part sugar, a dash of liquid smoke, or whatever other BBQ sauce recipe we have."
                 },
                 {
+                    "ingredient": "MSG",
+                    "substitutes": "Not necessary, but always a wonderful flavor enhancer."
+                },
+                {
                     "ingredient": "Tortilla chips",
                     "substitutes": "Are interchangeable with any chips of our liking. It's just a bit awkward to call it tortilla soup if we're using Maui Onion Chips."
                 }
             ],
             "instructions": [
-                "1. Add the water and pureed tomatoes to a pot and put the heat to medium high",
-                "1. Add the water and pureed tomatoes to a pot and put the heat to medium high"
+                "1. Add the water and pureed tomatoes to a pot and put the heat to medium high.",
+                "2. Then add corn, jackfruit, beans (along with all the aquafaba), oregano, white pepper, vegetable bouillon, and BBQ sauce. Bring to a simmer.",
+                "3. When the soup reach a simmer, taste and decide if you want to add more vegetable stock, oregano, white pepper, or BBQ sauce.",
+                "4. Serve with chopped avocado, chopped red onion, and tortilla chips as toppings."
             ],
-            "notes": "Any veggies can be used in this soup. The flavor comes mainly from the vegetable bouillon, the pureed tomatoes, the BBQ sauce, as well as the white pepper and oregano. The toppings are whatever we want them to be. The BBQ sauce is a free choice too... but we like the smoky ones the best for this soup!"
+            "notes": "Any veggies can be used in this soup. The flavor comes mainly from the vegetable bouillon, the pureed tomatoes, the BBQ sauce, as well as the white pepper and oregano. The toppings are whatever we want them to be. The BBQ sauce is a free choice too... but we like the smoky ones the best for this soup! When tasting the soup before serving, remember that we want it to be salty, sweet, smoky, tangy, and spicy."
+        },
+        {
+            "id": 1,
+            "name": "Garlicky Noodles",
+            "description": "These garlic noodles are so incredibly quick, easy, and tasty, combining a few Western and Asian ingredients to make one very flavorful bowl of deliciousness.",
+            "tags": [
+                {
+                    "quick": true,
+                    "difficulty": "Easy",
+                    "dishes": "Less wash",
+                    "cost": "Super cheap"
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "Noodles",
+                    "amount": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "Butter",
+                    "amount": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "Garlic",
+                    "amount": 8,
+                    "unit": "large cloves"
+                },
+                {
+                    "name": "Light soy sauce",
+                    "amount": 1,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Sugar",
+                    "amount": 1,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Chili flakes",
+                    "amount": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "MSG",
+                    "amount": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Rice vinegar",
+                    "amount": 2,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Spring onion",
+                    "amount": 3,
+                    "unit": ""
+                }
+            ],
+            "flex": [
+                {
+                    "ingredient": "Noodles",
+                    "substitutes": "Use any noodles you likey, thin or thick, round or flat. Yes, that includes Italian pasta too."
+                },
+                {
+                    "ingredient": "Sugar",
+                    "substitutes": "Use refined white sugar, brown sugar, palm sugar, or our favorite... Muscovado sugar!"
+                },
+                {
+                    "ingredient": "MSG",
+                    "substitutes": "Not necessary, but always a wonderful flavor enhancer."
+                },
+                {
+                    "ingredient": "Chili flakes",
+                    "substitutes": "Or why not fresh chopped up chili if you have it."
+                },
+                {
+                    "ingredient": "Rice vinegar",
+                    "substitutes": "Most vinegars are fairly identical substitutes, e.g. white wine vinegar, apple cider vinegar, etc."
+                }
+            ],
+            "instructions": [
+                "1. Bring a pot or pan of water to a boil, then salt the water to your liking and add the noodles.",
+                "2. Slice the cloves of garlic.",
+                "3. Add butter to a wok or pan on medium high heat and fry for 1 minute.",
+                "4. Add soy, sugar, chili flakes, chopped spring onion, MSG, and vinegar. Set the heat to low until the noodles are done.",
+                "5. Add noodles to the sauce, set the heat to high and mix for 1 minute. Serve."
+            ],
+            "notes": "MSG is amazing in this dish."
         }
     ]
 }
