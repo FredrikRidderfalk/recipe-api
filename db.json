@@ -7,13 +7,13 @@
             "tags": [
                 {
                     "quick": true,
-                    "difficulty": "Easy",
+                    "easy": true,
                     "temperature": {
                         "value": "400",
                         "unit": "°F"
                     },
                     "dishes": "Less wash",
-                    "cost": "Cheap"
+                    "cheap": true
                 }
             ],
             "ingredients": [
@@ -116,9 +116,9 @@
             "tags": [
                 {
                     "quick": true,
-                    "difficulty": "Easy",
-                    "dishes": "Less wash",
-                    "cost": "Super cheap"
+                    "easy": true,
+                    "dishes": true,
+                    "cheap": true
                 }
             ],
             "ingredients": [
@@ -198,6 +198,150 @@
                 "5. Add noodles to the sauce, set the heat to high and mix for 1 minute. Serve."
             ],
             "notes": "MSG is amazing in this dish."
+        },
+        {
+            "id": 2,
+            "name": "Mango Ceviche",
+            "description": "This ceviche goes excellently with something salty and savory like Bulgogi spring rolls.",
+            "tags": [
+                {
+                    "quick": true,
+                    "easy": true,
+                    "dishes": true,
+                    "cheap": false
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "Mango",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "Avocado",
+                    "amount": 2,
+                    "unit": ""
+                },
+                {
+                    "name": "Red onion",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "Lime",
+                    "amount": 1,
+                    "unit": ""
+                }
+            ],
+            "flex": [
+                {
+                    "ingredient": "Lime",
+                    "substitutes": "Lemon or yuzu works just as well."
+                }
+            ],
+            "instructions": [
+                "1. Chop up all the ingredients and add to a bowl.",
+                "2. Squeeze a lime into the bowl. Serve."
+            ],
+            "notes": "If you have an extra ingredient you want to add to the ceviche, it will probably fit well."
+        },
+        {
+            "id": 3,
+            "name": "Habibi Burgers",
+            "description": "Plant-based meat, plant-based cheese, veggies, buns, and three different saucy elements in between. This is our absolute favorite burger.",
+            "tags": [
+                {
+                    "quick": true,
+                    "easy": false,
+                    "dishes": false,
+                    "cheap": false
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "Plant-based meat",
+                    "amount": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "Butter",
+                    "amount": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Burger buns",
+                    "amount": 4,
+                    "unit": ""
+                },
+                {
+                    "name": "Tomato",
+                    "amount": null,
+                    "unit": ""
+                },
+                {
+                    "name": "Lettuce",
+                    "amount": null,
+                    "unit": ""
+                },
+                {
+                    "name": "Plant-based cheddar",
+                    "amount": null,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Red onion",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "Roasted onion",
+                    "amount": null,
+                    "unit": ""
+                },
+                {
+                    "name": "Mustard",
+                    "amount": null,
+                    "unit": ""
+                },
+                {
+                    "name": "Mayo",
+                    "amount": null,
+                    "unit": ""
+                },
+                {
+                    "name": "BBQ sauce",
+                    "amount": null,
+                    "unit": ""
+                }
+            ],
+            "flex": [
+                {
+                    "ingredient": "Plant-based meat",
+                    "substitutes": "We can also use something like beans or lentils to make veggie patties."
+                },
+                {
+                    "ingredient": "Butter",
+                    "substitutes": "Any oil works just as well."
+                },
+                {
+                    "ingredient": "Plant-based cheddar",
+                    "substitutes": "Or another type of cheese."
+                },
+                {
+                    "ingredient": "Mayo",
+                    "substitutes": "Flavored mayo is scrumptios too. Our favorite in these burgers is truffle mayo."
+                },
+                {
+                    "ingredient": "BBQ sauce",
+                    "substitutes": "Any BBQ sauce works, or even just ketchup. Sometimes we mix ketchup with a hot sauce and use that mix instead."
+                }
+            ],
+            "instructions": [
+                "1. Heat a pan on medium high heat with butter/oil. Season the patties with salt and white pepper. When hot, start frying the burger patties for a couple minutes on each side. Add cheese slices on top immediately after the first flip.",
+                "2. Slice tomato, onion, and rip some lettuce for all burgers.",
+                "3. Assemble the burger."
+            ],
+            "notes": "Lots of things can be added to the burger. Sliced avocado for example. You can also caramelize the onions instead of adding them raw. Also, if you want the buns warm and a bit roasted, like we do, try putting them into an oven in 400°F for 4 minutes, or into a toaster, or fry them in the burger pan for a minute each."
         }
     ]
 }
