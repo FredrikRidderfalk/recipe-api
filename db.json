@@ -3,19 +3,18 @@
         {
             "id": 0,
             "name": "Tortilla Soup",
+            "star": true,
             "description": "This might just be our favorite soup of all time. A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just 4 ingredients. Also, it's freakishly delicious and addictive.",
-            "tags": [
-                {
+            "tags": {
                     "quick": true,
                     "easy": true,
                     "temperature": {
-                        "value": "400",
-                        "unit": "°F"
+                        "value": "",
+                        "unit": ""
                     },
-                    "dishes": "Less wash",
+                    "lesswash": true,
                     "cheap": true
-                }
-            ],
+                },
             "ingredients": [
                 {
                     "name": "Water",
@@ -111,16 +110,19 @@
         },
         {
             "id": 1,
-            "name": "Garlicky Noodles",
+            "name": "Crack Noodles",
+            "star": true,
             "description": "These garlic noodles are so incredibly quick, easy, and tasty, combining a few Western and Asian ingredients to make one very flavorful bowl of deliciousness.",
-            "tags": [
-                {
+            "tags": {
                     "quick": true,
                     "easy": true,
-                    "dishes": true,
+                    "temperature": {
+                        "value": "",
+                        "unit": ""
+                    },
+                    "lesswash": true,
                     "cheap": true
-                }
-            ],
+                },
             "ingredients": [
                 {
                     "name": "Noodles",
@@ -202,15 +204,18 @@
         {
             "id": 2,
             "name": "Mango Ceviche",
+            "star": false,
             "description": "This ceviche goes excellently with something salty and savory like Bulgogi spring rolls.",
-            "tags": [
-                {
+            "tags": {
                     "quick": true,
                     "easy": true,
-                    "dishes": true,
+                    "temperature": {
+                        "value": "",
+                        "unit": ""
+                    },
+                    "lesswash": true,
                     "cheap": false
-                }
-            ],
+                },
             "ingredients": [
                 {
                     "name": "Mango",
@@ -247,16 +252,19 @@
         },
         {
             "id": 3,
-            "name": "Habibi Burgers",
+            "name": "Burgers",
+            "star": true,
             "description": "Plant-based meat, plant-based cheese, veggies, buns, and three different saucy elements in between. This is our absolute favorite burger.",
-            "tags": [
-                {
+            "tags": {
                     "quick": true,
-                    "easy": false,
-                    "dishes": false,
+                    "easy": true,
+                    "temperature": {
+                        "value": "",
+                        "unit": ""
+                    },
+                    "lesswash": false,
                     "cheap": false
-                }
-            ],
+                },
             "ingredients": [
                 {
                     "name": "Plant-based meat",
